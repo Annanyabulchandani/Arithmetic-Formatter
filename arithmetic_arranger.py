@@ -66,5 +66,4 @@ def arthemetic_arranger(lst, *args):
     else:
         problem = '\n'.join((frst_row, scnd_row, dashes))
     
-    return problem
-print(arthemetic_arranger(["99 + 89", "88 - 78"], True))
+    print(problem)
